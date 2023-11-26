@@ -57,10 +57,56 @@
 .photos{
   display: flex;
   grid-gap: 3em;
-  background-color: #1a2615;
+  background:#a6a28d;
+}
+.h2{
+  position: absolute;
+  top: 18em;
+  left: 30em;
+  transform: rotate(-45deg);
+  color:#fa2a0f;
+}
+.h3{
+  position: absolute;
+  top: 9em;
+  left: 8em;
+  color:#0ffa1f;
+}
+.h4{
+  position: absolute;
+  top: 15em;
+  left: 10em;
+  transform: rotate(45deg);
+  color:#3e0ffa;
+}
+.h5{
+  position: absolute;
+  top: 18em;
+  left: 13em;
+  color:#96c71c;
+}
+.h6{
+  position: absolute;
+  top: 18em;
+  left: 37em;
+  color:#0d0a4d;
+}
+.h7{
+  position: absolute;
+  top: 12em;
+  left: 25em;
+  transform: rotate(45deg);
+  color:#d0f222;
+}
+.h8{
+  position: absolute;
+  top: 10em;
+  left: 43em;
+  transform: rotate(-45deg);
+  color:#0e6f82;
 }
 .photos img{
-  width: 10em;
+  width: 7em;
   height: auto;
 
 }
@@ -68,6 +114,7 @@
   position: absolute;
   top: 10em;
   left: 3em;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
 }
 .img2 {
   position: absolute;
@@ -114,11 +161,43 @@
   top: 12em;
   left: 45em;
 }
+.img10{
+  position: absolute;
+  top: 31em;
+  left: 60em;
+
+}
+.img10 img{
+  padding-top: 0;
+  border:1px solid red;
+  transition:0.5s ease-in-out;
+ animation: buble 6s ease-in-out infinite;
+}
+@keyframes buble {
+  0%{
+    border-radius: 45% 55% 49% 51% / 52% 49% 51% 48%  ;
+  }
+  20%{
+    border-radius: 45% 55% 49% 51% / 52% 77% 23% 48%  ;
+  }
+  40%{
+    border-radius: 45% 55% 84% 16% / 52% 48% 52% 48%  ;
+  }
+  60%{
+    border-radius: 45% 55% 45% 55% / 16% 48% 52% 84%   ;
+  }
+  80%{
+    border-radius: 37% 63% 45% 55% / 41% 48% 52% 59%  ;
+  }
+  100%{
+    border-radius: 45% 55% 49% 51% / 52% 49% 51% 48%  ;
+  }
+}
 .intro{
   position: absolute;
-  top: 40em;
-  left: 3em;
-  margin-bottom: 4em;
+  top: 33em;
+  left: 9em;
+  margin-bottom: 2em;
   padding: 3em;
 }
 span{

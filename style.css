@@ -35,6 +35,7 @@
   font-weight: bold;
 }
 .header ul li a{
+  font-size: 1.3em;
   position: relative;
   color: #34eb49;
 }
@@ -218,4 +219,82 @@ span{
   100%{
     transform: translateX(0);
   }
+}
+.about{
+  position: absolute;
+  display: flex;
+  top: 45em;
+  margin-top:10em;
+  margin-bottom: 10em;
+  grid-gap: 6em;
+  align-items: center;
+  justify-content: center;
+
+}
+.aboutme{
+  width: 50%;
+  margin-left: 10em;
+}
+.aboutme h1{
+  margin-left: 2em;
+  color: #7ba3e3;
+}
+.aboutme h2{
+  margin-left: 1em;
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
+  color:#fa0a42;
+}
+.aboutme p{
+  font-family: 'ubuntu', sans-serif;
+  font-size: 20px;
+}
+.aboutme button{
+  position: absolute;
+  right: 42em;
+  margin-top: 2em;
+  padding: 1em;
+  font-size: 17px;
+  font-weight: bold;
+  color: green;
+  background-color: #cef0bd;
+  cursor: pointer;
+}
+.about img{
+  width: 16em;
+  border-radius: 50%;
+}
+.liquid{
+  position: absolute;
+  z-index: -2;
+  top:48em;
+  left: 4em;
+  width: 30em;
+}
+.service{
+  display: flex;
+  position: absolute;
+  top: 85em;
+  width: 100%;
+  grid-gap: 2em;
+  margin-left: 2em;
+  margin-right: 0;
+
+}
+.service div{
+  padding: 3em;
+  width: 30vw;
+  background-color: #a8eb34;
+  transition: 1s ease;
+}
+.service p{
+  font-size: 20px;
+}
+.service div:hover{
+  transform: translate(10px, -10px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.works{
+  position: absolute;
+  top: 115em;
 }
